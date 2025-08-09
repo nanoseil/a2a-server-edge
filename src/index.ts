@@ -41,7 +41,7 @@ export function createServer<
       // }
 
       // GET /.well-known/agent.json のハンドリング
-      if (method === "GET" && path === "/.well-known/agent.json") {
+      if (method === "GET" && path === "/.well-known/agent-card.json") {
         try {
           const agentCard = await requestHandler.getAgentCard();
           return new Response(JSON.stringify(agentCard), {
