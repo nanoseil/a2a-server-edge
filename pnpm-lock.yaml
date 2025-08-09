@@ -1,0 +1,46 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@a2a-js/sdk':
+        specifier: ^0.3.1
+        version: 0.3.1
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.2
+
+packages:
+
+  '@a2a-js/sdk@0.3.1':
+    resolution: {integrity: sha512-U0Si7N05hgsl1BUAOMzEmBbpXCs+ba7McAv1FUTfv6eiw0ubE7d9iyjmE/8RS7dsMD/F7Yf3yoWFqr08YawROw==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      express: ^4.21.2
+    peerDependenciesMeta:
+      express:
+        optional: true
+
+  typescript@5.9.2:
+    resolution: {integrity: sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  uuid@11.1.0:
+    resolution: {integrity: sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==}
+    hasBin: true
+
+snapshots:
+
+  '@a2a-js/sdk@0.3.1':
+    dependencies:
+      uuid: 11.1.0
+
+  typescript@5.9.2: {}
+
+  uuid@11.1.0: {}

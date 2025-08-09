@@ -1,0 +1,25 @@
+{
+  "name": "@nanoseil/a2a-server-edge",
+  "version": "0.1.0",
+  "description": "A2A Server for Edge Runtime",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nanoseil/a2a-server-edge"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [],
+  "author": "Nanoseil",
+  "license": "MIT",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "@a2a-js/sdk": "^0.3.1",
+    "typescript": "^5.9.2"
+  },
+  "peerDependencies": {
+    "@a2a-js/sdk": "^0.3.1"
+  }
+}
