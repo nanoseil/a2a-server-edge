@@ -1,6 +1,6 @@
 {
   "name": "@nanoseil/a2a-server-edge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A2A Server for Edge Runtime",
   "repository": {
     "type": "git",
