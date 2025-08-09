@@ -12,6 +12,9 @@
     "lint": "eslint . --ext .ts"
   },
   "keywords": [],
+  "files": [
+    "dist"
+  ],
   "author": "Nanoseil",
   "license": "MIT",
   "packageManager": "pnpm@10.13.1",
